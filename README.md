@@ -6,9 +6,9 @@ corresponding pulumi configurations:
 
 | AWS Resource | Pulumi Resource | Link to TerraHub Config |
 |-----------------------|--------------------|-------------------------|
-| Security Group | aws_security_group | [components/securityGroup.ts#L2](https://github.com/euliancom/pulumi-aws-automation-demo/components/securityGroup.ts#L2) |
-| Subnet | aws_subnet | [components/subnet.ts#L2](https://github.com/euliancom/pulumi-aws-automation-demo/components/subnet.ts#L2) |
-| VPC | aws_vpc | [components/vpc.ts#L2](https://github.com/euliancom/pulumi-aws-automation-demo/components/vpx.ts#L2) |
+| Security Group | aws_security_group | [components/securityGroup.ts#L2](https://github.com/euliancom/pulumi-aws-automation-demo/blob/main/components/securityGroup.ts#L2) |
+| Subnet | aws_subnet | [components/subnet.ts#L2](https://github.com/euliancom/pulumi-aws-automation-demo/blob/main/components/subnet.ts#L2) |
+| VPC | aws_vpc | [components/vpc.ts#L2](https://github.com/euliancom/pulumi-aws-automation-demo/blob/main/components/vpc.ts#L2) |
 
 Follow below instructions to try this out in your own AWS Cloud account.
 
