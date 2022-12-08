@@ -1,0 +1,3 @@
+name: pulumi-aws-automation-demo
+description: TypeScript Pulumi Automation Demo using AWS Cloud Provider
+runtime: nodejs
