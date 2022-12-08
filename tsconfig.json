@@ -13,6 +13,13 @@
         "forceConsistentCasingInFileNames": true
     },
     "files": [
-        "index.ts"
+        "index.ts",
+        "components/vpc.ts",
+        "components/subnet.ts",
+        "components/securityGroup.ts",
+        "interfaces/tag.ts",
+        "interfaces/vpc.ts",
+        "interfaces/subnet.ts",
+        "interfaces/securityGroup.ts"
     ]
 }

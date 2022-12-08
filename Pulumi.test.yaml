@@ -4,24 +4,24 @@ config:
   tags:data:
     description: Managed by Pulumi
     name: pulumi-aws-automation-demo
-  vpc:cidrBlock: 10.0.0.0/16
+  vpc:cidrBlock: 10.1.0.0/16
   vpc:assignGeneratedIpv6CidrBlock: false
   vpc:enableDnsHostnames: false
   vpc:enableDnsSupport: false
   vpc:instance-tenancy: default
   subnet:data:
-    - cidrBlock: 10.0.128.0/18
+    - cidrBlock: 10.1.128.0/18
       availabilityZone: us-east-1a
       mapPublicIpOnLaunch: false
-    - cidrBlock: 10.0.192.0/18
+    - cidrBlock: 10.1.192.0/18
       availabilityZone: us-east-1b
       mapPublicIpOnLaunch: false
-    # - cidrBlock: 10.0.0.0/18
-    #   availabilityZone: us-east-1a
-    #   mapPublicIpOnLaunch: true
-    # - cidrBlock: 10.0.64.0/18
-    #   availabilityZone: us-east-1b
-    #   mapPublicIpOnLaunch: true
+    - cidrBlock: 10.1.0.0/18
+      availabilityZone: us-east-1a
+      mapPublicIpOnLaunch: true
+    - cidrBlock: 10.1.64.0/18
+      availabilityZone: us-east-1b
+      mapPublicIpOnLaunch: true
   securityGroup:data:
     - name: allowTls
       description: Allow TLS inbound traffics
